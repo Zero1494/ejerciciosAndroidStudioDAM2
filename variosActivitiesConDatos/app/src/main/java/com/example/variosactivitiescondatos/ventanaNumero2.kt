@@ -3,11 +3,9 @@ package com.example.variosactivitiescondatos
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class ventanaNumero2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_ventana_numero2)
     }
-
-    lateinit var amosmecagoendiosnometienesqueinvitaraunacerveza
 }
