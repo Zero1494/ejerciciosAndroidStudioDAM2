@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.variosactivitiescondatos.databinding.ActivityMainBinding
+import com.example.variosactivitiescondatos.databinding.ActivityVentanaNumero2Binding
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,8 +27,8 @@ class MainActivity : AppCompatActivity() {
         var miIntent = Intent(this,ventanaNumero2::class.java)
         //Aqui podemos pasar los atributos creados en los elementos de texto que estan en
         //nuestra primera ventana
-        //miIntent.putExtra("nombre",binding.cajaNombre.text.toString())
-        //miIntent.putExtra("edad",binding.cajaEdad.text.toString())
+        miIntent.putExtra("nombre",binding.cajaNombre.text.toString())
+        miIntent.putExtra("edad",binding.cajaEdad.text.toString())
         startActivity(miIntent)
 
     }
