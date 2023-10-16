@@ -11,7 +11,6 @@ class ventanaNumero2 : AppCompatActivity() {
     lateinit var binding:ActivityVentanaNumero2Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setContentView(R.layout.activity_ventana_numero2)
 
         binding= ActivityVentanaNumero2Binding.inflate(layoutInflater)
         setContentView(binding.root)
