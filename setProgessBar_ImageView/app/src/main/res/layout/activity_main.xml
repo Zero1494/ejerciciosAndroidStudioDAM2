@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="102dp"
+        android:layout_height="83dp"
+        android:text="Verstappen primero, Alonso quinto, Norris descalificao"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="291dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="293dp"
+        android:layout_height="74dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="293dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <ProgressBar
+        android:id="@+id/SeekBarContinua"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="364dp"
+        android:layout_height="37dp"
+        android:max="100"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <SeekBar
+        android:id="@+id/SeekBar1"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <SeekBar
+        android:id="@+id/SeekBarD"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="218dp"
+        android:layout_height="31dp"
+        android:max="10"
+        android:progress="3"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <ImageView
+        android:id="@+id/idImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="32dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <androidx.constraintlayout.Constraints
+        android:id="@+id/constraints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
