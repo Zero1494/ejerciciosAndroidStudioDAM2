@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EstilosYEso" parent="ThemeOverlay.Material3.Light">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="misBotones">
+        <item name="android:background">@color/red</item>
+    </style>
+</resources>
