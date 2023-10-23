@@ -1,0 +1,4 @@
+package adaptadores
+
+class adaptadorRecycled {
+}
