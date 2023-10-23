@@ -18,7 +18,7 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.recicledview.MainActivity
-import com.example.recicledview.activity_main2
+import com.example.recicledview.MainActivity2
 import com.example.recicledview.R
 
 class miAdaptadorRecycler (var personajes : ArrayList<personaje>, var  context: Context) : RecyclerView.Adapter<miAdaptadorRecycler.ViewHolder>(){
@@ -63,7 +63,7 @@ class miAdaptadorRecycler (var personajes : ArrayList<personaje>, var  context: 
         val viewHolder = ViewHolder(vista)
         // Configurar el OnClickListener para pasar a la segunda ventana.
         viewHolder.itemView.setOnClickListener {
-            val intent = Intent(context, activity_main2::class.java)
+            val intent = Intent(context, MainActivity2::class.java)
             context.startActivity(intent)
         }
 
@@ -174,7 +174,7 @@ class miAdaptadorRecycler (var personajes : ArrayList<personaje>, var  context: 
 
             btnDetalleEspcifico.setOnClickListener {
                 Log.e("Fernando","Has pulsado el botón de ${pers}")
-                var inte : Intent = Intent(MainActivity.contextoPrincipal, activity_main2::class.java)
+                var inte : Intent = Intent(MainActivity.contextoPrincipal, MainActivity2::class.java)
                 inte.putExtra("obj",pers)
                 ContextCompat.startActivity(MainActivity.contextoPrincipal, inte, null)
             }

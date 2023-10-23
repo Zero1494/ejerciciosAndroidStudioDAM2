@@ -1,6 +1,5 @@
 package com.example.recicledview
 
-import Modelo.Personaje
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.recicledview.databinding.ActivityMain2Binding
